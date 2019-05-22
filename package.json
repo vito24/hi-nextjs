@@ -1,0 +1,23 @@
+{
+  "name": "hi-nextjs",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "export": "next export",
+    "start": "cross-env NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "@zeit/next-less": "^1.0.1",
+    "antd": "^3.5.4",
+    "babel-plugin-import": "^1.7.0",
+    "compression": "^1.7.2",
+    "express": "^4.16.3",
+    "less": "3.0.4",
+    "less-vars-to-js": "1.3.0",
+    "next": "latest",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
+  "license": "ISC"
+}
